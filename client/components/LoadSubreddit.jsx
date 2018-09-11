@@ -27,7 +27,6 @@ class LoadSubreddit extends React.Component {
     return (
       <div>
         <form onSubmit={this.onSubmit}>
-        {console.log(this.state.titles)}
         
           <input onChange={this.updateDetails} className="input" type="text" name="titles" placeholder="search" />
           <button>
