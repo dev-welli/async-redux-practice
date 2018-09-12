@@ -15,6 +15,7 @@ export const receivePosts = (posts) => {
     type: RECEIVE_POSTS,
     posts: posts.map(post => post.data)
   }
+  
 }
 
 export const showError = (errorMessage) => {
